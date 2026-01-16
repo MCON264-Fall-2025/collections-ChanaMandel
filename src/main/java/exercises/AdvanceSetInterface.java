@@ -14,5 +14,8 @@ public interface AdvanceSetInterface <T> extends CollectionInterface<T> {
     intersection()
     difference()
  */
+    AdvanceSetInterface<T> union(AdvanceSetInterface<T> other);
+    AdvanceSetInterface<T> intersection(AdvanceSetInterface<T> other);
+    AdvanceSetInterface<T> difference(AdvanceSetInterface<T> other);
 
 }
